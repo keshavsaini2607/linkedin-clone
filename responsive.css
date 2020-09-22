@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1140px) {
+    .navbar{
+        flex-direction: column;
+        height: auto;
+        transition:all 0.7s ease-out;
+    }
+    .icon {
+        width: 50px;
+        margin-right: 120px;
+    }
+    .navbar__options {
+        flex-direction: column;
+        border: none;
+    }
+    .navbar__icons {
+        margin: 10px;
+    }
+    .profile__image {
+        flex-direction: column;
+        text-align: center;
+    }
+    .profile__image img {
+        width: auto;
+    }
+    
+    #search{
+        width: 100%;
+        max-width: 30px;
+    }
+    
+    .burger {
+        display: block;
+    }
+
+    .h-nav {
+        height: 78px;
+    }
+    .v-class {
+        opacity: 0;
+    }
+
+    .section__one {
+        width: 100%;
+    }
+    .content {
+        flex-direction: column;
+        text-align: center;
+        max-width: 60%;
+    }
+}
